@@ -17,6 +17,8 @@ h1, h2, h3, h4, h5, h6{
 } 
 
 h1 { 
+     -webkit-box-sizing: border-box;
+    box-sizing: border-box;
     font-size: 2em;
    
 }
@@ -98,3 +100,22 @@ main{
     text-decoration: underline;
 }
 
+.percent-25{
+    width: 25%;
+}
+
+.percent-50{
+    width: 50%
+}
+
+.container{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+}
+
+/* all list items in mainNav .. */
+/* read right to left */
+.mainNav li{
+    display: inline;
+}
+  
